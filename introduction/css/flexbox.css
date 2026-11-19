@@ -1,0 +1,45 @@
+body {
+    background-color: #FFF5F7;
+    color: #55444B;
+    font-family: Arial;
+    margin: 30px;
+}
+
+h1 {
+    color: #82465E;
+    text-align: center;
+    background-color: #F4DCE5;
+    padding: 20px;
+}
+
+h2 {
+    color: #B65F80;
+}
+
+.container_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FCE8EF;
+}
+
+.container_flex div {
+    background-color: white;
+    color: #82465E;
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    margin: 10px;
+    border: 5px solid #DDA8BB;
+}
